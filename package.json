@@ -1,0 +1,32 @@
+
+{
+  "dependencies": {
+    "chart.js": "^4.4.9"
+  },
+  "devDependencies": {
+    "@types/chart.js": "^2.9.41",
+    "@vitejs/plugin-react": "^4.4.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "name": "diabetesstatvisualizer",
+  "version": "1.0.0",
+  "description": "Statistical mapping project with Diabetes information",
+  "main": "SiteData.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5SeanSean/DiabetesStatVisualizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5SeanSean/DiabetesStatVisualizer/issues"
+  },
+  "homepage": "https://github.com/5SeanSean/DiabetesStatVisualizer#readme"
+}

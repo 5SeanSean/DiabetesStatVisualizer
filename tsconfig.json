@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES2015",
+      "module": "ES2015",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "lib": ["DOM", "ES2015", "ES2016", "ES2017", "ES2018", "ES2019", "ES2020"],
+      "strict": true,
+      "sourceMap": true,
+      "outDir": "../dist",
+      "resolveJsonModule": true
+    },
+    "include": ["./**/*.ts", "src/main.js"],
+    "exclude": ["node_modules"]
+  }

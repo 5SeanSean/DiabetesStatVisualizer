@@ -27,24 +27,22 @@
       font-size: 1.2em;
       margin-bottom: 8px;
     }
+    #chart-container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
   </style>
 </head>
 <body>
-  <h1>CDC Diabetes Data Tables</h1>
+  <h1>Diabetes Data Visualizer</h1>
   <div id="tables-container">
     <!-- Tables will be dynamically inserted here -->
   </div>
-  <script type="module">
-    import { main, renderTables } from './SiteData.js';
-
-    async function run() {
-      const data = await main();
-      if (data) {
-        renderTables(data);
-      }
-    }
-
-    run();
-  </script>
+  <div id="chart-container">
+    <canvas id="cdc-diabetes-chart"></canvas>
+  </div>
+  
+  <!-- Use script type="module" to load a JavaScript file -->
+  <script type="module" src="./src/main.js"></script>
 </body>
 </html>
