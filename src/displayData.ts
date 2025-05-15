@@ -1,5 +1,5 @@
 // src/displayData.ts
-import { scrapeCDCDiabetesData } from './src/SiteData.js';
+import { scrapeCDCDiabetesData } from './SiteData.js';
 import Chart from 'chart.js/auto';
 
 async function renderGraph() {
