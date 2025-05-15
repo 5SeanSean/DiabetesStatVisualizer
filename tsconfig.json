@@ -10,6 +10,6 @@
       "outDir": "../dist",
       "resolveJsonModule": true
     },
-    "include": ["./**/*.ts", "src/main.js"],
+    "include": ["./**/*.ts", "src/main.jsx", "displayData.tsx"],
     "exclude": ["node_modules"]
   }
